@@ -22,7 +22,7 @@ public class Miles {
 
         //PROMPT user for number of miles
         System.out.println("Please enter the number of miles traveled:");
-        double miles = scanner.nextInt();
+        double miles = scanner.nextDouble();
 
         //PROMPT user to enter the number of gallons used
         System.out.println("Please enter the number of gallons used:");
