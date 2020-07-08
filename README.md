@@ -1,4 +1,4 @@
-# Strings
+# Basic Java
 
 ALTON'S HARDWARE STORE
 
