@@ -1,8 +1,6 @@
 # Strings
 
-Alton's Hardware Store 
-
-HOW MUCH SHOULD A FENCE COST?
+ALTON'S HARDWARE STORE
 
 BEGIN
 PROMPT user what type of fence they would like.
