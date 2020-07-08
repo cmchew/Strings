@@ -1,5 +1,7 @@
 /*
 
+PSEUDOCODE IS AVAILABLE IN README FILE.
+
 Let's put your pseudocode to work.  Remember writing pseudocode assignment to compute how much should a fence cost?
 
 Well, it has been modified slightly to this:
