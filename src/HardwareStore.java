@@ -45,16 +45,31 @@ public class HardwareStore {
 
         String message;
 
-        switch(fence){
-            case "wooden": //alterate ways to say wooden, i.e. "wood" "Wood" "Wooden"
-                message = "A wooden fence is $25 per square foot.";
-                break;
-            case "chain"://alternate ways to say chain, i.e. "chain" "Wood" "Wooden"
-                message = "A chain fence is $15 per square foot.";
-                break;
-            default:
-                message = "Error. Invalid response.";
-        }
+//        switch(fence){
+//            case "wooden": //alterate ways to say wooden, i.e. "wood" "Wood" "Wooden"
+//            case "wood":
+//            case "Wood":
+//            case "Wooden":
+//                message = "A wooden fence is $25 per square foot.";
+//                break;
+//
+//            case "chain"://alternate ways to say chain, i.e. "chain" "Wood" "Wooden"
+//                message = "A chain fence is $15 per square foot.";
+//            case "Chain"
+//                break;
+//            default:
+//                message = "Error. Invalid response.";
+//        }
+
+
+        if (fence.contains("wood"))
+            message = "A wooden fence is $25 per square foot.";
+        else
+            message = "A chain fence is $15 per square foot.";
+
+
+
+
 
         System.out.println(message);
         //Get square yard square footage
@@ -97,6 +112,10 @@ public class HardwareStore {
         System.out.println("The tax will be $" + fenceChainTax + ".");
         System.out.println ("The total cost with tax will be $" + fenceChainTotalCost + ".");
         System.out.println("We also will need to purchase fence permit from the city at a fee of $" + fencePermit + ".");
+
+
+
+
 
     }
 }
