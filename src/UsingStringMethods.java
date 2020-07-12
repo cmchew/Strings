@@ -27,7 +27,7 @@ public class UsingStringMethods {
             System.out.println("Index is larger than length.");
         }
         else {
-            System.out.println("This section of word is " + word.substring(0,index));
+            System.out.println("The substring from 0 to " + index + " of this word is " + word.substring(0,index) + ".");
 
         }
 
